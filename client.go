@@ -168,7 +168,7 @@ func TemporaryExchange(name string) Exchange {
 func LongExchange(name string) Exchange {
 	return Exchange{
 		Name:       name,
-		Kind:       "fanout",
+		Kind:       "direct",
 		Durable:    true,
 		AutoDelete: false,
 	}
