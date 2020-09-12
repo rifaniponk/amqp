@@ -6,7 +6,7 @@ import (
 
 	"github.com/pkg/errors"
 
-	"github.com/devimteam/amqp/conn"
+	"github.com/rifaniponk/amqp/conn"
 )
 
 type Publisher struct {

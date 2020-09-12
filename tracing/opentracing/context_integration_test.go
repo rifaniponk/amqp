@@ -7,9 +7,9 @@ import (
 	"testing"
 	"time"
 
-	"github.com/devimteam/amqp"
-	"github.com/devimteam/amqp/conn"
-	"github.com/devimteam/amqp/logger"
+	"github.com/rifaniponk/amqp"
+	"github.com/rifaniponk/amqp/conn"
+	"github.com/rifaniponk/amqp/logger"
 	"github.com/opentracing/opentracing-go"
 	"github.com/opentracing/opentracing-go/ext"
 	zipkin "github.com/openzipkin/zipkin-go-opentracing"

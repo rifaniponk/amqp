@@ -4,7 +4,7 @@ import (
 	"context"
 	"time"
 
-	"github.com/devimteam/amqp/logger"
+	"github.com/rifaniponk/amqp/logger"
 	"github.com/streadway/amqp"
 )
 

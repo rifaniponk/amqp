@@ -7,7 +7,7 @@ require (
 	github.com/Shopify/toxiproxy v2.1.3+incompatible // indirect
 	github.com/apache/thrift v0.0.0-20181019115558-cd829a0b9a5c // indirect
 	github.com/davecgh/go-spew v1.1.1 // indirect
-	github.com/devimteam/amqp v1.2.4
+	github.com/rifaniponk/amqp v1.2.6
 	github.com/eapache/go-resiliency v1.1.0 // indirect
 	github.com/eapache/go-xerial-snappy v0.0.0-20180814174437-776d5712da21 // indirect
 	github.com/eapache/queue v1.1.0 // indirect

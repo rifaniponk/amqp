@@ -6,7 +6,7 @@ import (
 	"sync"
 	"time"
 
-	"github.com/devimteam/amqp/logger"
+	"github.com/rifaniponk/amqp/logger"
 	"github.com/pkg/errors"
 	"github.com/streadway/amqp"
 )

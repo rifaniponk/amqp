@@ -5,8 +5,8 @@ import (
 	"sync"
 	"time"
 
-	"github.com/devimteam/amqp/conn"
-	"github.com/devimteam/amqp/logger"
+	"github.com/rifaniponk/amqp/conn"
+	"github.com/rifaniponk/amqp/logger"
 	"github.com/streadway/amqp"
 )
 

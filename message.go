@@ -5,7 +5,7 @@ import (
 	"net/http"
 	"time"
 
-	"github.com/devimteam/amqp/codecs"
+	"github.com/rifaniponk/amqp/codecs"
 	"github.com/streadway/amqp"
 )
 

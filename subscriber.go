@@ -5,8 +5,8 @@ import (
 	"reflect"
 	"sync"
 
-	"github.com/devimteam/amqp/codecs"
-	"github.com/devimteam/amqp/conn"
+	"github.com/rifaniponk/amqp/codecs"
+	"github.com/rifaniponk/amqp/conn"
 	"github.com/pkg/errors"
 	"github.com/streadway/amqp"
 )

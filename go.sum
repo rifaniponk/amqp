@@ -5,8 +5,8 @@ github.com/apache/thrift v0.0.0-20181019115558-cd829a0b9a5c h1:y0Lj4CKfnN8DIkuQ/
 github.com/apache/thrift v0.0.0-20181019115558-cd829a0b9a5c/go.mod h1:cp2SuWMxlEZw2r+iP2GNCdIi4C1qmUzdZFSVb+bacwQ=
 github.com/davecgh/go-spew v1.1.1 h1:vj9j/u1bqnvCEfJOwUhtlOARqs3+rkHYY13jYWTU97c=
 github.com/davecgh/go-spew v1.1.1/go.mod h1:J7Y8YcW2NihsgmVo/mv3lAwl/skON4iLHjSsI+c5H38=
-github.com/devimteam/amqp v1.2.4 h1:rdUn7h6h/1jT6P55bc9a2eSOTQMCZgykHWAXfF3cio0=
-github.com/devimteam/amqp v1.2.4/go.mod h1:rn1KHHx5ftOnx8JZzk8sKclYf/GPR6hfJBkv8mwybO8=
+github.com/rifaniponk/amqp v1.2.4 h1:rdUn7h6h/1jT6P55bc9a2eSOTQMCZgykHWAXfF3cio0=
+github.com/rifaniponk/amqp v1.2.4/go.mod h1:rn1KHHx5ftOnx8JZzk8sKclYf/GPR6hfJBkv8mwybO8=
 github.com/eapache/go-resiliency v1.1.0 h1:1NtRmCAqadE2FN4ZcN6g90TP3uk8cg9rn9eNK2197aU=
 github.com/eapache/go-resiliency v1.1.0/go.mod h1:kFI+JgMyC7bLPUVY133qvEBtVayf5mFgVsvEsIPBvNs=
 github.com/eapache/go-xerial-snappy v0.0.0-20180814174437-776d5712da21 h1:YEetp8/yCZMuEPMUDHG0CW/brkkEp8mzqk2+ODEitlw=

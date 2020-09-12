@@ -51,10 +51,10 @@ func DialConfig(url string, config amqp.Config, opts ...ConnectionOption) (*Conn
 }
 
 const (
-	defaultProduct     = "https://github.com/devimteam/amqp"
+	defaultProduct     = "https://github.com/rifaniponk/amqp"
 	defaultVersion     = "v1.2.0"
 	defaultPlatform    = "golang"
-	defaultInformation = "AMQP lib github.com/devimteam/amqp for golang on top of https://github.com/streadway/amqp"
+	defaultInformation = "AMQP lib github.com/rifaniponk/amqp for golang on top of https://github.com/streadway/amqp"
 	defaultLocale      = "en_US"
 	defaultHeartbeat   = 10 * time.Second
 )

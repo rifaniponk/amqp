@@ -4,7 +4,7 @@ import (
 	"context"
 	"fmt"
 
-	"github.com/devimteam/amqp"
+	"github.com/rifaniponk/amqp"
 	"github.com/opentracing/opentracing-go"
 	"github.com/opentracing/opentracing-go/ext"
 	origin "github.com/streadway/amqp"

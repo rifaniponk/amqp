@@ -10,8 +10,8 @@ import (
 	"testing"
 	"time"
 
-	"github.com/devimteam/amqp/conn"
-	"github.com/devimteam/amqp/logger"
+	"github.com/rifaniponk/amqp/conn"
+	"github.com/rifaniponk/amqp/logger"
 )
 
 var DEBUG = flag.Bool("debug", false, "Activate pprof")

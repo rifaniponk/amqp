@@ -3,7 +3,7 @@ package amqp
 import (
 	"time"
 
-	"github.com/devimteam/amqp/logger"
+	"github.com/rifaniponk/amqp/logger"
 )
 
 type PublisherOption func(*Publisher)
