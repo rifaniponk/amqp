@@ -5,9 +5,9 @@ import (
 	"reflect"
 	"sync"
 
+	"github.com/pkg/errors"
 	"github.com/rifaniponk/amqp/codecs"
 	"github.com/rifaniponk/amqp/conn"
-	"github.com/pkg/errors"
 	"github.com/streadway/amqp"
 )
 
@@ -160,6 +160,7 @@ func (s Subscriber) processEvent(d amqp.Delivery, dataType interface{}, eventCha
 		if e != nil {
 			_ = s.opts.log.Log(errors.Errorf("nack delivery: %v because of %v", e, err))
 		}
+		panic(err.Error())
 		return
 	}
 	ev, err := s.handleEvent(d, dataType)
@@ -170,6 +171,7 @@ func (s Subscriber) processEvent(d amqp.Delivery, dataType interface{}, eventCha
 		if e != nil {
 			_ = s.opts.log.Log(errors.Errorf("nack delivery: %v because of %v", e, err))
 		}
+		panic(err.Error())
 		return
 	}
 	eventChan <- ev
